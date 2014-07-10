@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Description</th>
+  </tr>
+{{ range . }}
+  <tr>
+    <td>{{.Name}}</td>
+    <td>{{.Email}}</td>
+    <td>{{.Description}}</td>
+  </tr>
+{{ end }}
+</table>
+
+<a href="index.html">New User</a>
+
